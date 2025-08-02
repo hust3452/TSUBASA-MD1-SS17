@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .class {
+            width: 500px;
+            height: 500px;
+            box-sizing: border-box;
+        }
+
+        .color {
+            padding-top: 50px;
+            position: relative;
+            display: flex;
+            gap: 50px;
+        }
+        #item{
+            box-sizing: border-box;
+            width: 30%;
+            height: 100px;
+
+        }
+        .yellow {
+
+            background-color: yellow;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .gray {
+            background-color: gray;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="body">
+        <h1>Change background color</h1>
+        <div>Mouse over the square</div>
+        <div class="color">
+            <div id="item" class="yellow" onmouseover="over1()" onmouseout="our1()"></div>
+            <div id="item" class="green" onmouseover="over2()" onmouseout="our2()"></div>
+            <div id="item" class="gray" onmouseover="over3()" onmouseout="our3()"></div>
+        </div>
+    </div>
+
+    <script src="/ss17/Section17-04/Section17-04.JS"></script>
+
+
+</body>
+
+</html>
